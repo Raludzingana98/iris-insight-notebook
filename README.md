@@ -18,7 +18,7 @@ using Python, pandas, scikit-learn, seaborn, and matplotlib.
 Install dependencies (Python 3.8+ recommended):
 ```bash
 pip install pandas seaborn matplotlib scikit-learn joblib
-## ▶️ How to Run
+▶️ How to Run
 
 Clone the repository:
 
@@ -33,7 +33,7 @@ python iris_classification.py
 
 or open the .ipynb notebook in Jupyter and execute cells.
 
-## 📊 Key Steps in Code
+📊 Key Steps in Code
 
 EDA: sns.pairplot visualizes relationships across features.
 
@@ -56,7 +56,7 @@ Saving Models:
 joblib.dump(dt_model, 'decision_tree_model.pkl')
 joblib.dump(perc_model, 'perceptron_model.pkl')
 
-## 📈 Results
+📈 Results
 
 Typical accuracies:
 
@@ -65,7 +65,7 @@ Decision Tree: ~95%+
 Perceptron: ~90%+
 (Results may vary slightly due to random splits.)
 
-## 🗂 Project Structure
+🗂 Project Structure
 .
 ├─ DATA1.ipynb            # Jupyter notebook with full workflow
 ├─ decision_tree_model.pkl
